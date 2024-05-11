@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Israeli Boycott Lists</title>
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Custom CSS -->
+  <style>
+    .result-card {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .brand-image {
+      width: 100px;
+      height: auto;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="center-align mb-4">Israel Product List</h1>
+    <div class="input-field">
+      <input type="text" id="searchInput" class="validate" placeholder="Search for products...">
+      <label for="searchInput">Search</label>
+      <button class="btn waves-effect waves-light" type="button" id="searchButton">Search</button>
+    </div>
+    <div id="searchResults">
+      <!-- Search results will appear here -->
+    </div>
+  </div>
+
+  <!-- Materialize JS and dependencies (jQuery) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Your custom JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
